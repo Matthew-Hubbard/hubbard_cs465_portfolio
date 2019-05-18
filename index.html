@@ -14,6 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap js -->
     <link rel="stylesheet" href="style.css"> <!-- import the .css -->
+    <script type="text/javascript" src="site.js"></script>
   </head>
 
   <body>
@@ -29,9 +30,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
+            <li class="active" id="Home"><a style="cursor: pointer">Home</a></li>
+            <li id="Projects"><a style="cursor: pointer">Projects</a></li>
+            <li id="About"><a onclick="about()" style="cursor: pointer">About</a></li>
           </ul>
         </div>
       </div>
@@ -43,7 +44,7 @@
           <p><a href="#">Item 1</a></p>
           <p><a href="#">Item 2</a></p>
         </div>
-        <div class="col-sm-8 text-left" style="text-align: center;">
+        <div class="col-sm-8 text-left" style="text-align: center;" id="main_window">
           <h1>Matthew Hubbard</h1>
           <img src="email_profile_pic.jpg" alt="Matthew R. Hubbard" style="width:40%;height:40%;">
         </div>
