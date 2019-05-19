@@ -2,11 +2,13 @@
 
 body {
     background-image: url("attractive-backdrop-background-988872.jpg");
+    height: 100%
 }
 
 .mainDiv {
     /*font-family: 'Slabo 27px', serif;*/
     font-family: 'Oswald', sans-serif;
+    padding-bottom: 100px;    /* height of footer */
 }
 
 .mainDiv h1 {
@@ -15,6 +17,16 @@ body {
 
 .mainDiv p {
     font-size: 21pt;
+}
+
+footer{
+    /*height: 100px;*/
+    background-color: transparent;
+    font-size: 16pt;
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .center{
@@ -65,9 +77,9 @@ body {
 /*    !*color: black;*!*/
 /*}*/
 
-/*p {*/
-/*    font-size: large;*/
-/*}*/
+p {
+    font-family: 'Oswald', sans-serif;
+}
 
 .sidebar {
     font-size: 28pt;
@@ -106,12 +118,6 @@ body {
 /*    border-color: yellow;*/
 /*}*/
 
-/* Set black background color, white text and some padding */
-footer {
-    background-color: #555;
-    color: white;
-    padding: 15px;
-}
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
