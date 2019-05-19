@@ -32,6 +32,5 @@ function projects() {
 
 function home() {
     setNav("Home");
-    $("#main_window").html("<h1>Matthew Hubbard</h1>" +
-        "<img src='email_profile_pic.jpg' alt='Matthew R. Hubbard' style='width:40%;height:40%;'>");
+    $("#main_window").html("<h1>Matthew Hubbard's Portfolio</h1><p>Welcome to my portfolio site. Check out my about page and what projects I've done.</p>");
 }
