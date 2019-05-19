@@ -27,7 +27,8 @@ function about() {
 function projects() {
     setNav("Projects");
     let about_str = "projects here";
-    $("#mainWindow").html("<h1 id='marker'>Projects</h1><p>" + about_str + "</p>");
+    let htmlStr = "<h1 id='marker'>Projects</h1><p>" + about_str + "</p>";
+    $("#mainWindow").html(htmlStr);
 }
 
 function home() {
