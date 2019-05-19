@@ -1,7 +1,20 @@
 /*My CSS*/
 
 body {
-    /*background-image: url();*/
+    background-image: url("attractive-backdrop-background-988872.jpg");
+}
+
+.mainDiv {
+    /*font-family: 'Slabo 27px', serif;*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.mainDiv h1 {
+    font-size: 55pt;
+}
+
+.mainDiv p {
+    font-size: 21pt;
 }
 
 .center{
@@ -11,9 +24,19 @@ body {
 }
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
     border-radius: 0;
+    font-family: 'Amatic SC', cursive;
+    /*font-weight: bold;*/
+    font-size: 22pt;
+    color: black;
 }
+
+#marker {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 72pt;
+}
+
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
@@ -25,15 +48,33 @@ body {
 }
 
 .well {
-    background-color: gainsboro;
+    /*background-color: rgba(29,85,144, 0.3);*/
+    /*background-color: rgba(3,45,90, 0.2);*/
+    background-color: rgba(255,255,255, 0.5);
+    border-color: black;
 }
 
-a {
-    font-size: large;
+/*a {*/
+/*    !*font-family: 'Amatic SC', cursive;*!*/
+/*    !*font-weight: bold;*!*/
+/*    !*font-size: 22pt;*!*/
+/*    !*color: black;*!*/
+/*}*/
+
+/*p {*/
+/*    font-size: large;*/
+/*}*/
+
+.sidebar {
+    font-size: 28pt;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    /*font-size: 22pt;*/
+    color: black;
 }
 
-p {
-    font-size: large;
+[class*=col-] {
+    background-color: transparent;
 }
 
 /*.col-md-6 {*/
