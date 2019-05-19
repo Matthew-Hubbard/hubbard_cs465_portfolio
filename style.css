@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.navbar-brand {
+    font-size: 22pt;
+}
+
 #marker {
     font-family: 'Permanent Marker', cursive;
     font-size: 72pt;
