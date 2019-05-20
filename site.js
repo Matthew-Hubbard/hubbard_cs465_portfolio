@@ -15,13 +15,12 @@ function setNav(navButton){
 };
 
 function about() {
-    //alert("You clicked About!");
-    // $("#Home").removeClass("active");
-    // $("#Projects").removeClass("active");
-    // $("#About").addClass("active");
     setNav("About");
-    let about_str = "I'm a computer science student at PSU planning to graduate in December of 2019.";
-    $("#mainWindow").html("<h1>About</h1><p>" + about_str + "</p>");
+    let htmlStr = "<h1>About</h1><p>I'm a computer science student at PSU planning to graduate in December of 2019. I play " +
+        "guitar and like plants. Here's my majesty palm and spider plant. The spider plant shown is a clone of a larger one I have.</p>";
+    htmlStr += "<img src='majesty_palm.jpg' height='40%' width='40%'>";
+    htmlStr += "<img src='spider_plant.jpg' height='40%' width='40%'>";
+    $("#mainWindow").html(htmlStr);
 }
 
 function projects() {
